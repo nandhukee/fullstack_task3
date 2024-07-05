@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+thead th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+tbody th {
+  background-color: #f9f9f9;
+}
+
+tbody td[colspan="6"] {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
